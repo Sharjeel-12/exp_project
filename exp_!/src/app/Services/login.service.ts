@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class LoginService {
-base_url:string="https://localhost:49428/api/Auth/login";
+base_url:string="http://localhost:49428/api/Auth/login";
 
 isAdmin:boolean=false;
 isReceptionist:boolean=false;

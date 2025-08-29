@@ -6,7 +6,7 @@ import { Visit, CreateVisitDto, UpdateVisitDto } from '../models/visit';
 @Injectable({ providedIn: 'root' })
 export class VisitDataService {
   // Keep this base URL consistent with your project
-  private apiUrl = 'https://localhost:49428/api/Visits';
+  private apiUrl = 'http://localhost:49428/api/Visits';
 
   constructor(private http: HttpClient) {}
 

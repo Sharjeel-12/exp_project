@@ -11,7 +11,7 @@ import { Token } from '@angular/compiler';
 export class PatientDataService {
 //admin token
   token:string="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbkBleGFtcGxlLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwidWlkIjoiMyIsImV4cCI6MjA3MTU0ODgxMSwiaXNzIjoiUGF0aWVudFZpc2l0TWFuYWdlciIsImF1ZCI6IlBhdGllbnRWaXNpdE1hbmFnZXJVc2VycyJ9.ppSrnsaIFitQrm8CEbHw66VrdfOLjFfTwXveM9zrQTA";
-baseUrl:string="https://localhost:49428/api/Patients";
+baseUrl:string="http://localhost:49428/api/Patients";
   constructor(private http:HttpClient) {
    }
 
